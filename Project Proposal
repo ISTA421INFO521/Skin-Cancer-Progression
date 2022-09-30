@@ -1,0 +1,36 @@
+Title of the project: Skin Cancer detetion
+
+Names: Harshvardhan Singh, Nassim Sbai
+
+Project Description: We know how important it is to identify cancer cells in an early stage, because cancer is pretty much curable early on, but becomes
+one of the most deadly diseases once the cancer cells start to spread in other organs of the body. Skin cancer alone has between 2 and 3 million cases
+ each year, and it (Non-Melanoma skin cancers) sadly kill more than 5,400 worldwide each month. There are mainly 4 types of skin cancer-
+ (source - https://www.cancer.net/cancer-types/skin-cancer-non-melanoma/introduction)
+ 1. Basal cell carcinoma - Basal cells are the round cells found in the lower epidermis. About 80% cancer cells are made out of Basal cells, however they 
+ grow slowly and rarely spread to different parts of the body. They appear in the form of skin cancer due to exposure to sunlight.
+ 2. Squamous cell carcinoma - They are made up of made up of flat, scale-like cells called squamous cells. Around 20% of skin cancers develop from 
+ these cells. Squamous cell carcinoma is also mainly caused by sun exposure, so it may be diagnosed on many regions of the skin.
+ About 2% to 5% of squamous cell carcinomas spread to other parts of the body.
+ 3. Merkel cell cancer - Merkel cell cancer is a highly aggressive, or fast-growing. Howevr this is a rare cancer. It starts in hormone-producing cells just
+ beneath the skin and in the hair follicles. It is usually found in the head and neck region.
+ 4. Melanoma - These cells produce the pigment melanin, which gives skin its color. Melanoma starts in melanocytes, and it is the most aggressive type of 
+ skin cancer. It accounts for about 1% of all skin cancers.
+The main challenge is to identify the different types of skin cancer since they can look very similar, for which we would train a classification model 
+using a suitable ML algorithm.
+
+Dataset: We needed to find a dataset that would contain a good mix of all four types of skin caner, and we have found just the right dataset on Kaggle.
+The dataset's cases include a representative collection of all important diagnostic categories in the realm of pigmented lesions: Actinic keratoses and 
+intraepithelial carcinoma / Bowen's disease (akiec), basal cell carcinoma (bcc), benign keratosis-like lesions (solar lentigines / seborrheic keratoses 
+and lichen-planus like keratoses, bkl), dermatofibroma (df), melanoma (mel), melanocytic nevi (nv) and vascular lesions (angiomas, angiokeratomas, 
+pyogenic granulomas and hemorrhage, vasc). 
+(https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
+
+tasks: 1. Our task would be to first to split our dataset into training set and testing set with am 80:20 ratio
+2. In order to train our ML model we would choose a suitable classification algorithm, very likely Naive Bayes 
+3. We would then perform the preprocessing of the dataset which might be a bit challenging because the dataset also consists of a few other pigmentation 
+disorders which are in addition to the 4 types of skin cancers we are looking to classify. 
+4. Once we are done with that, we would train our classification model to classify the 4 types of cancer cells using the training dataset
+5. Next we would test our model using the testing dataset
+6*. We also plan on training a segmentation model in addition to the classification model so that we can detect where exactly the cancer cell is located
+as opposed to just the classification, but we would treat this step as an additional/optional task and might work on it only after we are done training 
+the classification model.
