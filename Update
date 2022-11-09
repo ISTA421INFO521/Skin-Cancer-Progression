@@ -1,0 +1,3 @@
+UPDATE
+
+We are training 4 classification models including SVM, Naive Bayes and Random forest. And implement k-fold cross validation in order to compare our models
