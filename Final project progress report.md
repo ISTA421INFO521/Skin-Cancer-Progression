@@ -25,7 +25,7 @@ Please commit this file to your GitHub repo (progress.md) AND to D2L.
 -------
 
 ### GitHub repo usage
-_We have provided a link to the original dataset, a text file explaining all the changes and updates we have made for our project since the original project proposal. Finally, we have also uploaded an .rmd file that contains the code for our SVM model. We are still working on our model and hope to make it up and running soon. We have made 11 commits so far but most of them were mostly just minor updates, nothing big. We will soon be uploading our Naive Bayes model very shortly_
+_We have provided a link to the original dataset, a text file explaining all the changes and updates we have made for our project since the original project proposal. Finally, we have also uploaded an .rmd file that contains the code for our SVM model. We are still working on our model and hope to make it up and running soon. We have made 11 commits so far but most of them were mostly just minor updates, nothing big. We will soon be uploading our Naive Bayes model, very shortly_
 
 
 ### Summarize your data
