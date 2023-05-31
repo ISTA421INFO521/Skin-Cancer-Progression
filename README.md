@@ -1,4 +1,4 @@
-# Skin Cancer Detection with Sequential Model in CNN
+# Skin Cancer Progression with Sequential Model in CNN
 
 This is a pilot project for the detection and classification of skin cancer progression using different ML/AI models including Convolutional Neural Network (CNN). For this pilot project, sequential model used can classify different types of skin cancer, including:
 
